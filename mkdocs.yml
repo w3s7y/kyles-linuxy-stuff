@@ -24,7 +24,7 @@ extra:
 # Main material config block
 theme:
   name: material
-  custom_dir: docs/overrides
+  # custom_dir: docs/overrides
   features:
     - announce.dismiss
     - content.action.edit
