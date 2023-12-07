@@ -1,12 +1,13 @@
 # The main components and tools of linux
 
 
-## CLI Tools you NEED TO KNOW
+## CLI Tools
 
 And know _well_ e.g. `ps -ef` <-- what do the `-e` and `-f` options do to the `ps` command and how is it different
 on MAC vs Linux?
 
-`ps -ef | grep java | awk '{x+=$1} END {print x*8192/1024/1024"Mb"}'` <-- what does this do? 
+`ps -ef | grep java | awk '{x+=$1} END {print x*8192/1024/1024"Mb"}'`
+
 
 ### Messing with text in files
 
@@ -15,8 +16,9 @@ on MAC vs Linux?
 * awk - Similar to sed but for working with much more complex data structures (it's basically its own language)
 * grep - regex search in files or streams of data. 
 
-### General OS commands 
+### General OS commands
 
+* | - The pipe (chain output from one command into another) 
 * ps - list processes on machine
 * df - Disk free (show free space in mounts)
 * dd - disk destroyer (superfast, bit for bit copy) 
