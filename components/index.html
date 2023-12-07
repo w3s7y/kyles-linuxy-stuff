@@ -514,6 +514,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    The main components and tools of linux
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -523,6 +534,59 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cli-tools-you-need-to-know" class="md-nav__link">
+    CLI Tools you NEED TO KNOW
+  </a>
+  
+    <nav class="md-nav" aria-label="CLI Tools you NEED TO KNOW">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#messing-with-text-in-files" class="md-nav__link">
+    Messing with text in files
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-os-commands" class="md-nav__link">
+    General OS commands
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-related-commands" class="md-nav__link">
+    Storage related commands
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -642,6 +706,48 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cli-tools-you-need-to-know" class="md-nav__link">
+    CLI Tools you NEED TO KNOW
+  </a>
+  
+    <nav class="md-nav" aria-label="CLI Tools you NEED TO KNOW">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#messing-with-text-in-files" class="md-nav__link">
+    Messing with text in files
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#general-os-commands" class="md-nav__link">
+    General OS commands
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-related-commands" class="md-nav__link">
+    Storage related commands
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -672,6 +778,33 @@
 
 
 <h1 id="the-main-components-and-tools-of-linux">The main components and tools of linux</h1>
+<h2 id="cli-tools-you-need-to-know">CLI Tools you NEED TO KNOW</h2>
+<p>And know <em>well</em> e.g. <code>ps -ef</code> &lt;-- what do the <code>-e</code> and <code>-f</code> options do to the <code>ps</code> command and how is it different
+on MAC vs Linux?</p>
+<p><code>ps -ef | grep java | awk '{x+=$1} END {print x*8192/1024/1024"Mb"}'</code> &lt;-- what does this do? </p>
+<h3 id="messing-with-text-in-files">Messing with text in files</h3>
+<ul>
+<li>vi - Text editor</li>
+<li>sed - Regex matching (find and replace for text in files)</li>
+<li>awk - Similar to sed but for working with much more complex data structures (it's basically its own language)</li>
+<li>grep - regex search in files or streams of data. </li>
+</ul>
+<h3 id="general-os-commands">General OS commands</h3>
+<ul>
+<li>ps - list processes on machine</li>
+<li>df - Disk free (show free space in mounts)</li>
+<li>dd - disk destroyer (superfast, bit for bit copy) </li>
+<li>top - nicer ps</li>
+<li>getopts - get options from cli (used when writing shell scripts to take user input) </li>
+<li>cd - change dir</li>
+<li>ls - list dirs</li>
+</ul>
+<h3 id="storage-related-commands">Storage related commands</h3>
+<ul>
+<li>mkfs - Make new filesystems (format partitions)</li>
+<li>fdisk - Make partitions on drives</li>
+<li>mount - manage mounts of disks to the filesystem</li>
+</ul>
 
 
 
