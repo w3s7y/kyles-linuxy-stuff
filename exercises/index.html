@@ -598,6 +598,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Exercises
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -607,6 +618,58 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic" class="md-nav__link">
+    Basic
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#text-mutatuion" class="md-nav__link">
+    Text mutatuion
+  </a>
+  
+    <nav class="md-nav" aria-label="Text mutatuion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-text-manipulation" class="md-nav__link">
+    Easy text manipulation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -640,6 +703,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic" class="md-nav__link">
+    Basic
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#text-mutatuion" class="md-nav__link">
+    Text mutatuion
+  </a>
+  
+    <nav class="md-nav" aria-label="Text mutatuion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#easy-text-manipulation" class="md-nav__link">
+    Easy text manipulation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -671,11 +775,45 @@
 
 <h1 id="exercises">Exercises</h1>
 <p>Some random ideas for kinda "How would you do this" in Linux.</p>
+<h2 id="basic">Basic</h2>
 <ul>
 <li>Create an automated job that checks for files in <code>/tmp</code> every 15 mins and cleans down files older than 7 days.</li>
-<li></li>
-<li></li>
+<li>find an old HDD and format it with the <code>zfs</code> filesystem and mount it to <code>/mnt/backup_drive</code></li>
+<li>Add an automount rule so this drive mounts on system boot </li>
 </ul>
+<h3 id="text-mutatuion">Text mutatuion</h3>
+<h4 id="easy-text-manipulation">Easy text manipulation</h4>
+<p>Create a commandline which will take this input: </p>
+<pre><code class="language-text">This chapter is a comprehensive reference of all CVS commands, with a brief
+summary of what each does. It is intended to be useful as a quick reference, not as
+a tutorial.
+
+This chapter covers the following topics:
+* Conceptual overview
+* Command-line syntax and options
+* CVS dot files
+* Environment variables
+* Keywords and keyword modes
+* Dates
+* CVSROOT variables
+* Alphabetical summary of commands
+</code></pre>
+<p>and turn it into the following output: </p>
+<p>Output:</p>
+<pre><code class="language-text">This chapter is a cbmprehensive reference bf all VS cbmmands, with a brief
+summary bf what each dbes. It is intended tb be useful as a quick reference, nbt as
+a tutbrial.
+
+This chapter cbvers the fbllbwing tbpics:
+* bnceptual bverview
+* bmmand-line syntax and bptibns
+* VS dbt files
+* Envirbnment variables
+* Keywbrds and keywbrd mbdes
+* Dates
+* VSROOT variables
+* Alphabetical summary bf cbmmands
+</code></pre>
 
 
 
