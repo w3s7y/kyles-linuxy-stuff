@@ -6,7 +6,7 @@
 And know _well_ e.g. `ps -ef` <-- what do the `-e` and `-f` options do to the `ps` command and how is it different
 on MAC vs Linux?
 
-`ps -ef | grep java | awk '{x+=$1} END {print x*8192/1024/1024"Mb"}'`
+`ps -ef | grep java | awk '{x+=$4} END {print x*8192/1024/1024"Mb"}'`
 
 
 ### Messing with text in files
@@ -32,3 +32,13 @@ on MAC vs Linux?
 * mkfs - Make new filesystems (format partitions)
 * fdisk - Make partitions on drives
 * mount - manage mounts of disks to the filesystem
+
+
+### Server / network commands
+
+* openssl - all things TLS are within
+* netstat - network sockets (unix, tcp and udp)
+* curl - HTTP getter / poster (file downloader, general good http debugging tool)
+* ping - ICMP pinger
+* ifconfig - local network interface configuration 
+* ip - configure network interfaces (similar to ifconfig, present when ifconfig is absent in some distros)
