@@ -3,7 +3,7 @@
 Some random ideas for kinda "How would you do this" in Linux.
 
 
-## Basic 
+## Basic day to day admin
 
 * Create an automated job that checks for files in `/tmp` every 15 mins and cleans down files older than 7 days.
 * find an old HDD and format it with the `zfs` filesystem and mount it to `/mnt/backup_drive`
@@ -50,3 +50,13 @@ This chapter cbvers the fbllbwing tbpics:
 * VSROOT variables
 * Alphabetical summary bf cbmmands
 ```
+
+I did it with `echo` and `tr` but there are loads more! 
+
+### Finding information about the current system
+
+* How many cores does the machine have?
+* How much memory is currently being used? 
+* How much free space is on all the attached disks? 
+* What other machines is it connected to?
+* 

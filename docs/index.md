@@ -1,17 +1,13 @@
 # Linux Learning 
 
+![Tux](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1024px-Tux.svg.png)
+
 This site is all I (Ben West) know about Linux (or at least can remember!).  
 
-It's mainly 
+## Flavours
 
-## Flavours 
+This tree shows most of the common ones.
 
-Just like anything on earth, we have many, many flavours of Linux and they are called 
-distributions or just "distros" if you want to sound like you know what you are talking about. 
+![Linux Tree](https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg)
 
-
-
-1. Ubuntu 
-
-### But what IS a flavour? 
 

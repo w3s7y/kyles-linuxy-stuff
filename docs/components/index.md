@@ -1,13 +1,9 @@
 # The main components and tools of linux
 
 
-## CLI Tools
+## CLI Commands
 
-And know _well_ e.g. `ps -ef` <-- what do the `-e` and `-f` options do to the `ps` command and how is it different
-on MAC vs Linux?
-
-`ps -ef | grep java | awk '{x+=$4} END {print x*8192/1024/1024"Mb"}'`
-
+The core ones I use most of the time and know most of the common options for.
 
 ### Messing with text in files
 
@@ -26,13 +22,13 @@ on MAC vs Linux?
 * getopts - get options from cli (used when writing shell scripts to take user input) 
 * cd - change dir
 * ls - list dirs
+* pwd - print working (current) directory.
 
 ### Storage related commands 
 
 * mkfs - Make new filesystems (format partitions)
 * fdisk - Make partitions on drives
 * mount - manage mounts of disks to the filesystem
-
 
 ### Server / network commands
 
@@ -42,3 +38,8 @@ on MAC vs Linux?
 * ping - ICMP pinger
 * ifconfig - local network interface configuration 
 * ip - configure network interfaces (similar to ifconfig, present when ifconfig is absent in some distros)
+
+## GUI Tools
+
+* [Zenmap](https://nmap.org/zenmap/) Network analysis / packet crafter.
+* 
